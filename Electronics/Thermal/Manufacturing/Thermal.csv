@@ -1,0 +1,10 @@
+Comment,Designator,Footprint,LCSC
+"10u","C1","Thermal:C0402","C15525"
+"1u","C2","Thermal:C0402","C14445"
+"4.7n","C3","Thermal:C0603","C1621"
+"330p","C4","Thermal:C0603","C1664"
+"220u","C5","Thermal:CASE-D_7343","C8024"
+"Energy Generator Connection","J1","Connector_Wire:SolderWire-0.1sqmm_1x02_P3.6mm_D0.4mm_OD1mm",""
+"Output","J2","Connector_Wire:SolderWire-0.1sqmm_1x02_P3.6mm_D0.4mm_OD1mm",""
+"1:50","T1","Thermal:XFMR-SMD_LPR6235-752SML","C5382958"
+"LTC3108IGN_PBF","U2","LTC3108IGN_PBF:SSOP-16_GW","C684055"

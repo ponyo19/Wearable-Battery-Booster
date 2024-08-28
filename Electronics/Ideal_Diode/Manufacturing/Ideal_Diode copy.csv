@@ -1,0 +1,7 @@
+"Id";"Designator";"Package";"Quantity";"Designation";"Supplier and ref";
+1;"IN";"SolderWire-0.1sqmm_1x04_P3.6mm_D0.4mm_OD1mm";1;"IN";;;
+2;"R1,R2";"R_0603_1608Metric";2;"100k";;;
+3;"OUT";"SolderWire-0.1sqmm_1x02_P3.6mm_D0.4mm_OD1mm";1;"OUT";;;
+4;"U1";"SOT-5X3_DRL_TEX";1;"LM66200DRLR";;;
+5;"C1,C2";"C_0402_1005Metric";2;"1u";;;
+6;"C3";"C_0402_1005Metric";1;"0.1u";;;

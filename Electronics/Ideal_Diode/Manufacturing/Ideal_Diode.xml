@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/Users/tominhduy/DSD/Protopaja/Ideal_Diode/Ideal_Diode.kicad_sch</source>
+    <date>2024 August 09, Friday 16:13:14</date>
+    <tool>Eeschema (6.0.7-1)-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Ideal_Diode.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">C2887021</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="JCSC" value=""/>
+      <property name="LCSC" value="C2887021"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Ideal_Diode.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>48e800de-832a-4961-8b8d-5c502488e0d9</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">C2887021</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value="C2887021"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Ideal_Diode.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>61950e4e-a5b2-4bb0-802c-7ff84dfd6a78</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>0.1u</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">C141382</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value="C141382"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Ideal_Diode.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8c3786c8-8900-4dee-a8ce-816761f59ab5</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>IN</value>
+      <footprint>Connector_Wire:SolderWire-0.1sqmm_1x04_P3.6mm_D0.4mm_OD1mm</footprint>
+      <libsource lib="Connector" part="Conn_01x04_Female" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Ideal_Diode.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2cd1c78f-8c4c-4fda-945b-a7704bada4ba</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>OUT</value>
+      <footprint>Connector_Wire:SolderWire-0.1sqmm_1x02_P3.6mm_D0.4mm_OD1mm</footprint>
+      <libsource lib="Connector" part="Conn_01x02_Female" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Ideal_Diode.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>aa5dba70-b1a7-470c-b43d-8735623f3c45</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C25803</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <property name="LCSC" value="C25803"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Ideal_Diode.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a9e5b648-24a0-462e-b9d8-ab699e6e75dc</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C25804</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <property name="LCSC" value="C25804"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Ideal_Diode.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>644c09c1-0a1b-4d69-813d-1d43407afe6b</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>LM66200DRLR</value>
+      <footprint>SOT 5x3:SOT-5X3_DRL_TEX</footprint>
+      <datasheet>LM66200DRLR</datasheet>
+      <fields>
+        <field name="LCSC">C3235556</field>
+      </fields>
+      <libsource lib="LM66200DRLR" part="LM66200DRLR" description=""/>
+      <property name="LCSC" value="C3235556"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Ideal_Diode.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bef327b8-e26b-4140-aad3-d6561333a8b2</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Conn_01x02_Female">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02_Female</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x04_Female">
+      <description>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04_Female</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Small">
+      <description>Unpolarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Small_US">
+      <description>Resistor, small US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small_US</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="LM66200DRLR" part="LM66200DRLR">
+      <docs>LM66200DRLR</docs>
+      <footprints>
+        <fp>SOT-5X3_DRL_TEX</fp>
+        <fp>SOT-5X3_DRL_TEX-M</fp>
+        <fp>SOT-5X3_DRL_TEX-L</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM66200DRLR</field>
+        <field name="Footprint">SOT-5X3_DRL_TEX</field>
+        <field name="Datasheet">LM66200DRLR</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_out"/>
+        <pin num="2" name="VOUT" type="power_in"/>
+        <pin num="3" name="VIN1" type="input"/>
+        <pin num="4" name="ON" type="input"/>
+        <pin num="5" name="GND" type="power_out"/>
+        <pin num="6" name="VIN2" type="input"/>
+        <pin num="7" name="VOUT" type="output"/>
+        <pin num="8" name="ST" type="output"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Connector.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Device.kicad_sym</uri>
+    </library>
+    <library logical="LM66200DRLR">
+      <uri>/Users/tominhduy/DSD/Protopaja/Ideal_Diode/Models/KiCADv6/2024-08-09_11-39-01.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="GND">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J1" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="GND" pintype="power_out"/>
+      <node ref="U1" pin="5" pinfunction="GND" pintype="power_out"/>
+    </net>
+    <net code="2" name="Net-(C3-Pad1)">
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="VOUT" pintype="power_in"/>
+      <node ref="U1" pin="7" pinfunction="VOUT" pintype="output"/>
+    </net>
+    <net code="3" name="Net-(R1-Pad2)">
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="ON" pintype="input"/>
+    </net>
+    <net code="4" name="Net-(R2-Pad2)">
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="U1" pin="8" pinfunction="ST" pintype="output"/>
+    </net>
+    <net code="5" name="VIN1">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="VIN1" pintype="input"/>
+    </net>
+    <net code="6" name="VIN2">
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="VIN2" pintype="input"/>
+    </net>
+  </nets>
+</export>

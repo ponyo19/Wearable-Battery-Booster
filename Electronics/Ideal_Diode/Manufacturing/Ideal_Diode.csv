@@ -1,0 +1,8 @@
+Comment,Designator,Footprint,LCSC
+"1u","C1,C2","Capacitor_SMD:C_0402_1005Metric","C2887021"
+"0.1u","C3","Capacitor_SMD:C_0402_1005Metric","C141382"
+"IN","J1","Connector_Wire:SolderWire-0.1sqmm_1x04_P3.6mm_D0.4mm_OD1mm",""
+"OUT","J2","Connector_Wire:SolderWire-0.1sqmm_1x02_P3.6mm_D0.4mm_OD1mm",""
+"100k","R1","Resistor_SMD:R_0603_1608Metric","C25803"
+"10k","R2","Resistor_SMD:R_0603_1608Metric","C25804"
+"LM66200DRLR","U1","SOT 5x3:SOT-5X3_DRL_TEX","C3235556"
